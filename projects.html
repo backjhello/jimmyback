@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Junhyun (Jimmy) Back | Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="profile-card" data-profile-card></aside>
+
+    <main class="main">
+      <header class="topnav">
+        <div class="topnav-brand">Portfolio</div>
+        <nav class="topnav-tabs">
+          <a href="index.html" class="tab">About</a>
+          <a href="projects.html" class="tab active">Projects</a>
+          <a href="experience.html" class="tab">Experience</a>
+          <a href="skills.html" class="tab">Skills</a>
+          <a href="contact.html" class="tab">Contact</a>
+        </nav>
+      </header>
+
+      <div class="content">
+        <section id="projects" class="section">
+          <div class="section-header">
+            <h2>Highlighted Projects</h2>
+            <div class="section-underline"></div>
+          </div>
+          <p>
+            Selected projects that show how I balance systems-level rigor with data
+            storytelling and competition-ready ML. Each one links out to a repo or
+            write-up where you can dig into design notes and code.
+          </p>
+
+          <div class="grid">
+            <article class="project-card">
+              <h3>MyFS – Custom Toy File System</h3>
+              <p class="pill">Systems</p>
+              <p>
+                Designed a <strong>52-byte inode</strong> layout, superblock,
+                inode bitmap, and directory structure. Implemented read/write and
+                directory traversal logic in C.
+              </p>
+              <a href="https://github.com/YOUR_USERNAME/myfs" target="_blank" class="link">
+                View on GitHub →
+              </a>
+            </article>
+
+            <article class="project-card">
+              <h3>3FS & LevelDB Performance Logging</h3>
+              <p class="pill">Research</p>
+              <p>
+                Instrumented a GPU-cluster file system (<strong>3FS</strong>) to
+                log LevelDB operations and analyze write performance bottlenecks.
+              </p>
+              <a href="https://github.com/YOUR_USERNAME/3fs-notes" target="_blank" class="link">
+                View notes →
+              </a>
+            </article>
+
+            <article class="project-card">
+              <h3>Customer Spending & RFM Dashboard</h3>
+              <p class="pill">Data</p>
+              <p>
+                Used the Dunnhumby dataset to build RFM segments and ML models
+                explaining customer value, presented through a dashboard.
+              </p>
+              <a href="https://github.com/YOUR_USERNAME/dunnhumby-rfm-dashboard" target="_blank" class="link">
+                View project →
+              </a>
+            </article>
+
+            <article class="project-card">
+              <h3>Datathon – XGBoost Solution</h3>
+              <p class="pill">ML Competition</p>
+              <p>
+                Led a team that placed <strong>2nd / 180</strong> by focusing on
+                clean feature engineering, strong baselines, and clear evaluation.
+              </p>
+              <a href="https://github.com/YOUR_USERNAME/datathon-2025" target="_blank" class="link">
+                View code →
+              </a>
+            </article>
+          </div>
+        </section>
+
+        <footer class="footer">
+          © <span id="year"></span> Junhyun (Jimmy) Back · Built with HTML & CSS · Hosted on GitHub Pages
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
